@@ -224,23 +224,29 @@ class SerieATracker {
         const sorted = [...this.data.teams].sort((a, b) => b.pts - a.pts);
 
         let status = 'possibile';
+        let statusLabel = 'possibile';
         let message = '';
 
         if (type === 'salvezza') {
             if (team.name === 'Genoa') {
-                status = 'possibile';
+                status = 'salvo'; 
+                statusLabel = 'possibile';
                 message = 'Salvezza quasi certa';
             } else if (team.name === 'Fiorentina') {
-                status = 'difficile';
+                status = 'stabile'; 
+                statusLabel = 'possibile';
                 message = 'Situazione instabile';
             } else if (team.name === 'Cagliari') {
                 status = 'difficile';
+                statusLabel = 'difficile';
                 message = 'Situazione critica';
             } else if (team.name === 'Lecce' || team.name === 'Cremonese') {
                 status = 'difficile';
+                statusLabel = 'difficile';
                 message = 'Situazione molto critica';
             } else if (team.name === 'Pisa' || team.name === 'Verona') {
                 status = 'impossibile';
+                statusLabel = 'impossibile';
                 message = 'Quasi matematicamente retrocessa';
             } else {
                 message = 'In lotta';
@@ -248,15 +254,19 @@ class SerieATracker {
         } else if (type === 'champions') {
             if (team.name === 'Inter' || team.name === 'Napoli') {
                 status = 'possibile';
+                statusLabel = 'possibile';
                 message = 'Champions certa';
             } else if (team.name === 'Milan') {
                 status = 'possibile';
+                statusLabel = 'possibile';
                 message = 'Champions quasi certa';
-            } else if (team.name === 'Como') {
-                status = 'difficile';
+            } else if (team.name === 'Como' || team.name === 'Juventus') {
+                status = 'possibile';
+                statusLabel = 'possibile';
                 message = 'In piena corsa Champions';
-            } else if (team.name === 'Juventus' || team.name === 'Roma') {
-                status = 'difficile';
+            } else if (team.name === 'Roma') {
+                status = 'improbabile';
+                statusLabel = 'improbabile';
                 message = 'Champions/Europa League';
             } else {
                 message = 'Ancora in corsa';
@@ -264,9 +274,11 @@ class SerieATracker {
         } else if (type === 'scudetto') {
             if (team.name === 'Inter' || team.name === 'Napoli') {
                 status = 'possibile';
+                statusLabel = 'possibile';
                 message = 'Volata decisiva';
             } else if (team.name === 'Milan') {
                 status = 'difficile';
+                statusLabel = 'difficile';
                 message = 'In bilico tra 2° e 3° posto';
             }
         }
@@ -277,16 +289,14 @@ class SerieATracker {
             ptsMin: minPoints,
             gareRestanti: remaining,
             status,
+            statusLabel,
             message
         };
     }
 
     createLottaCard(team, analysis, type) {
-        const statusClass = analysis.status;
-        const typeClass = type;
-
         return `
-            <div class="lotta-card ${typeClass}">
+            <div class="lotta-card ${type}">
                 <div class="lotta-header">
                     <div class="lotta-badge">
                         <img src="${team.image}" alt="${team.name}">
@@ -295,7 +305,7 @@ class SerieATracker {
                         <div class="lotta-name">${team.name}</div>
                         <div class="lotta-pts">${analysis.ptsAttuali} punti</div>
                     </div>
-                    <div class="lotta-status ${statusClass}">${analysis.status}</div>
+                    <div class="lotta-status ${analysis.status}">${analysis.statusLabel}</div>
                 </div>
                 <div class="lotta-details">
                     <div class="detail-row">
