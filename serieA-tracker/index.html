@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serie A Tracker 2025-26</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <img src="images/serie-a-logo.png" alt="Serie A" class="logo">
+                <h1>Serie A 2025-26</h1>
+                <p>Stagioni finali: Giornate 32-38</p>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <button class="nav-btn active" data-section="calendario">📅 Calendario</button>
+            <button class="nav-btn" data-section="classifica">📊 Classifica</button>
+            <button class="nav-btn" data-section="salvezza">🆘 Lotta Salvezza</button>
+            <button class="nav-btn" data-section="champions">🏆 Lotta Champions</button>
+            <button class="nav-btn" data-section="scudetto">👑 Scudetto</button>
+        </nav>
+
+        <main class="main-content">
+            <!-- SEZIONE CALENDARIO -->
+            <section class="section active" id="calendario">
+                <div class="section-header">
+                    <h2>📅 Calendario</h2>
+                    <select id="giornataFilter" class="filter-select">
+                        <option value="">Tutte le giornate</option>
+                        <option value="32">Giornata 32</option>
+                        <option value="33">Giornata 33</option>
+                        <option value="34">Giornata 34</option>
+                        <option value="35">Giornata 35</option>
+                        <option value="36">Giornata 36</option>
+                        <option value="37">Giornata 37</option>
+                        <option value="38">Giornata 38</option>
+                    </select>
+                </div>
+                <div id="calendarioContainer" class="calendario-grid"></div>
+            </section>
+
+            <!-- SEZIONE CLASSIFICA -->
+            <section class="section" id="classifica">
+                <div class="section-header">
+                    <h2>📊 Classifica</h2>
+                </div>
+                <div id="classificaContainer" class="classifica-table"></div>
+            </section>
+
+            <!-- SEZIONE LOTTA SALVEZZA -->
+            <section class="section" id="salvezza">
+                <div class="section-header">
+                    <h2>🆘 Lotta Salvezza</h2>
+                </div>
+                <div id="salvezzaContainer" class="lotta-container"></div>
+            </section>
+
+            <!-- SEZIONE LOTTA CHAMPIONS -->
+            <section class="section" id="champions">
+                <div class="section-header">
+                    <h2>🏆 Lotta Champions</h2>
+                </div>
+                <div id="championsContainer" class="lotta-container"></div>
+            </section>
+
+            <!-- SEZIONE SCUDETTO -->
+            <section class="section" id="scudetto">
+                <div class="section-header">
+                    <h2>👑 Lotta Scudetto</h2>
+                </div>
+                <div id="scudettoContainer" class="lotta-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

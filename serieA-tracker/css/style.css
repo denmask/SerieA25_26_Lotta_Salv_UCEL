@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1e40af;
+    --secondary: #dc2626;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --dark: #1f2937;
+    --light: #f3f4f6;
+    --white: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--white);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    color: var(--white);
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+    animation: slideDown 0.6s ease-out;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    animation: rotation 3s linear infinite;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.navbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-btn {
+    padding: 12px 24px;
+    border: 2px solid var(--light);
+    background: var(--white);
+    color: var(--dark);
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.nav-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.nav-btn.active {
+    background: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+.section {
+    display: none;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.section.active {
+    display: block;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.section-header h2 {
+    font-size: 2em;
+    color: var(--primary);
+}
+
+.filter-select {
+    padding: 10px 15px;
+    border: 2px solid var(--light);
+    border-radius: 8px;
+    background: var(--white);
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.filter-select:hover {
+    border-color: var(--primary);
+}
+
+.calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.match-card {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border-left: 5px solid var(--light);
+    overflow: hidden;
+    position: relative;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.match-card.giornata-32 {
+    border-left-color: #3b82f6;
+}
+
+.match-card.giornata-33 {
+    border-left-color: #8b5cf6;
+}
+
+.match-card.giornata-34 {
+    border-left-color: #ec4899;
+}
+
+.match-card.giornata-35 {
+    border-left-color: #f59e0b;
+}
+
+.match-card.giornata-36 {
+    border-left-color: #10b981;
+}
+
+.match-card.giornata-37 {
+    border-left-color: #06b6d4;
+}
+
+.match-card.giornata-38 {
+    border-left-color: #ef4444;
+}
+
+.match-giornata {
+    font-size: 0.85em;
+    color: #6b7280;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.match-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+}
+
+.team-badge {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 3px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.team-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-badge:hover {
+    transform: scale(1.1);
+    border-color: var(--primary);
+}
+
+.team-name {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-align: center;
+    color: var(--dark);
+}
+
+.match-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.score-display {
+    font-size: 1.8em;
+    font-weight: 800;
+    color: var(--primary);
+    min-width: 50px;
+    text-align: center;
+}
+
+.match-time {
+    font-size: 0.85em;
+    color: #9ca3af;
+    text-align: center;
+}
+
+.match-date {
+    font-size: 0.8em;
+    color: #9ca3af;
+    text-align: center;
+}
+
+.classifica-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+thead {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    color: var(--white);
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--light);
+}
+
+tbody tr {
+    transition: all 0.3s ease;
+}
+
+tbody tr:hover {
+    background: var(--light);
+}
+
+tbody tr.champions {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+tbody tr.europaLeague {
+    background: rgba(245, 158, 11, 0.15);
+}
+
+tbody tr.salvato {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+tbody tr.retrocesso {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.posizione {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.1em;
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.team-cell img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lotta-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.lotta-card {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+}
+
+.lotta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.lotta-card.salvezza {
+    border-top-color: #10b981;
+}
+
+.lotta-card.champions {
+    border-top-color: #1e40af;
+}
+
+.lotta-card.scudetto {
+    border-top-color: #fbbf24;
+}
+
+.lotta-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.lotta-badge {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.lotta-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lotta-info {
+    flex: 1;
+}
+
+.lotta-name {
+    font-weight: 700;
+    color: var(--dark);
+    font-size: 1.1em;
+}
+
+.lotta-pts {
+    font-size: 0.9em;
+    color: #6b7280;
+}
+
+.lotta-status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.lotta-status.possibile {
+    background: rgba(59, 130, 246, 0.2);
+    color: #1e40af;
+}
+
+.lotta-status.difficile {
+    background: rgba(245, 158, 11, 0.2);
+    color: #b45309;
+}
+
+.lotta-status.impossibile {
+    background: rgba(239, 68, 68, 0.2);
+    color: #dc2626;
+}
+
+.lotta-details {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--light);
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+    color: #6b7280;
+}
+
+.detail-label {
+    font-weight: 500;
+}
+
+.detail-value {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .navbar {
+        gap: 5px;
+    }
+
+    .nav-btn {
+        padding: 10px 16px;
+        font-size: 0.9em;
+    }
+
+    .calendario-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lotta-container {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    .team-cell {
+        gap: 8px;
+    }
+
+    .team-cell img {
+        width: 30px;
+        height: 30px;
+    }
+}
