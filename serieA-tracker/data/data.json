@@ -1,25 +1,165 @@
 {
   "teams": [
-    { "id": 1, "name": "Inter", "image": "images/inter.png", "pts": 72 },
-    { "id": 2, "name": "Napoli", "image": "images/napoli.png", "pts": 65 },
-    { "id": 3, "name": "Milan", "image": "images/milan.png", "pts": 63 },
-    { "id": 4, "name": "Como", "image": "images/como.png", "pts": 58 },
-    { "id": 5, "name": "Juventus", "image": "images/juventus.png", "pts": 57 },
-    { "id": 6, "name": "Roma", "image": "images/roma.png", "pts": 54 },
-    { "id": 7, "name": "Atalanta", "image": "images/atalanta.png", "pts": 53 },
-    { "id": 8, "name": "Bologna", "image": "images/bologna.png", "pts": 45 },
-    { "id": 9, "name": "Lazio", "image": "images/lazio.png", "pts": 44 },
-    { "id": 10, "name": "Sassuolo", "image": "images/sassuolo.png", "pts": 42 },
-    { "id": 11, "name": "Udinese", "image": "images/udinese.png", "pts": 40 },
-    { "id": 12, "name": "Torino", "image": "images/torino.png", "pts": 36 },
-    { "id": 13, "name": "Parma", "image": "images/parma.png", "pts": 35 },
-    { "id": 14, "name": "Genoa", "image": "images/genoa.png", "pts": 33 },
-    { "id": 15, "name": "Fiorentina", "image": "images/fiorentina.png", "pts": 32 },
-    { "id": 16, "name": "Cagliari", "image": "images/cagliari.png", "pts": 30 },
-    { "id": 17, "name": "Cremonese", "image": "images/cremonese.png", "pts": 27 },
-    { "id": 18, "name": "Lecce", "image": "images/lecce.png", "pts": 27 },
-    { "id": 19, "name": "Verona", "image": "images/verona.png", "pts": 18 },
-    { "id": 20, "name": "Pisa", "image": "images/pisa.png", "pts": 18 }
+    {
+      "id": 1,
+      "name": "Inter",
+      "image": "images/inter.png",
+      "W": 23,
+      "D": 3,
+      "L": 5
+    },
+    {
+      "id": 2,
+      "name": "Napoli",
+      "image": "images/napoli.png",
+      "W": 20,
+      "D": 5,
+      "L": 6
+    },
+    {
+      "id": 3,
+      "name": "Milan",
+      "image": "images/milan.png",
+      "W": 18,
+      "D": 9,
+      "L": 4
+    },
+    {
+      "id": 4,
+      "name": "Como",
+      "image": "images/como.png",
+      "W": 16,
+      "D": 10,
+      "L": 5
+    },
+    {
+      "id": 5,
+      "name": "Juventus",
+      "image": "images/juventus.png",
+      "W": 16,
+      "D": 9,
+      "L": 6
+    },
+    {
+      "id": 6,
+      "name": "Roma",
+      "image": "images/roma.png",
+      "W": 17,
+      "D": 3,
+      "L": 11
+    },
+    {
+      "id": 7,
+      "name": "Atalanta",
+      "image": "images/atalanta.png",
+      "W": 14,
+      "D": 11,
+      "L": 6
+    },
+    {
+      "id": 8,
+      "name": "Bologna",
+      "image": "images/bologna.png",
+      "W": 13,
+      "D": 6,
+      "L": 12
+    },
+    {
+      "id": 9,
+      "name": "Lazio",
+      "image": "images/lazio.png",
+      "W": 11,
+      "D": 11,
+      "L": 9
+    },
+    {
+      "id": 10,
+      "name": "Sassuolo",
+      "image": "images/sassuolo.png",
+      "W": 12,
+      "D": 6,
+      "L": 13
+    },
+    {
+      "id": 11,
+      "name": "Udinese",
+      "image": "images/udinese.png",
+      "W": 11,
+      "D": 7,
+      "L": 13
+    },
+    {
+      "id": 12,
+      "name": "Torino",
+      "image": "images/torino.png",
+      "W": 10,
+      "D": 6,
+      "L": 15
+    },
+    {
+      "id": 13,
+      "name": "Parma",
+      "image": "images/parma.png",
+      "W": 8,
+      "D": 11,
+      "L": 12
+    },
+    {
+      "id": 14,
+      "name": "Genoa",
+      "image": "images/genoa.png",
+      "W": 8,
+      "D": 9,
+      "L": 14
+    },
+    {
+      "id": 15,
+      "name": "Fiorentina",
+      "image": "images/fiorentina.png",
+      "W": 7,
+      "D": 11,
+      "L": 13
+    },
+    {
+      "id": 16,
+      "name": "Cagliari",
+      "image": "images/cagliari.png",
+      "W": 7,
+      "D": 9,
+      "L": 15
+    },
+    {
+      "id": 17,
+      "name": "Cremonese",
+      "image": "images/cremonese.png",
+      "W": 6,
+      "D": 9,
+      "L": 16
+    },
+    {
+      "id": 18,
+      "name": "Lecce",
+      "image": "images/lecce.png",
+      "W": 7,
+      "D": 6,
+      "L": 18
+    },
+    {
+      "id": 19,
+      "name": "Verona",
+      "image": "images/verona.png",
+      "W": 3,
+      "D": 9,
+      "L": 19
+    },
+    {
+      "id": 20,
+      "name": "Pisa",
+      "image": "images/pisa.png",
+      "W": 2,
+      "D": 12,
+      "L": 17
+    }
   ],
   "matches": [
     {

@@ -17,6 +17,13 @@ class SerieATracker {
             localStorage.removeItem('serieAData');
             const response = await fetch('data/data.json?t=' + new Date().getTime());
             this.data = await response.json();
+            
+            // Calcola i punti automaticamente da W, D, L
+            this.data.teams.forEach(team => {
+                team.pts = (team.W * 3) + (team.D * 1);
+                team.PG = team.W + team.D + team.L;
+            });
+            
             this.saveData();
         } catch (error) {
             console.error('Errore caricamento dati:', error);
@@ -151,10 +158,10 @@ class SerieATracker {
                         ${team.name}
                     </td>
                     <td><strong>${team.pts}</strong></td>
-                    <td>31</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td>${team.PG}</td>
+                    <td>${team.W}</td>
+                    <td>${team.D}</td>
+                    <td>${team.L}</td>
                 </tr>
             `;
         });
