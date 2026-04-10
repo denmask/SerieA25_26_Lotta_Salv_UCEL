@@ -164,7 +164,7 @@
   "matches": [
     {
       "giornata": 32,
-      "data": "2025-04-10",
+      "data": "2026-04-10",
       "orario": "20:45",
       "casa": "Roma",
       "ospite": "Pisa",
@@ -174,7 +174,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-11",
+      "data": "2026-04-11",
       "orario": "15:00",
       "casa": "Cagliari",
       "ospite": "Cremonese",
@@ -184,7 +184,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-11",
+      "data": "2026-04-11",
       "orario": "15:00",
       "casa": "Torino",
       "ospite": "Verona",
@@ -194,7 +194,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-11",
+      "data": "2026-04-11",
       "orario": "18:00",
       "casa": "Milan",
       "ospite": "Udinese",
@@ -204,7 +204,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-11",
+      "data": "2026-04-11",
       "orario": "20:45",
       "casa": "Atalanta",
       "ospite": "Juventus",
@@ -214,7 +214,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-12",
+      "data": "2026-04-12",
       "orario": "12:30",
       "casa": "Genoa",
       "ospite": "Sassuolo",
@@ -224,7 +224,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-12",
+      "data": "2026-04-12",
       "orario": "15:00",
       "casa": "Parma",
       "ospite": "Napoli",
@@ -234,7 +234,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-12",
+      "data": "2026-04-12",
       "orario": "18:00",
       "casa": "Bologna",
       "ospite": "Lecce",
@@ -244,7 +244,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-12",
+      "data": "2026-04-12",
       "orario": "20:45",
       "casa": "Como",
       "ospite": "Inter",
@@ -254,7 +254,7 @@
     },
     {
       "giornata": 32,
-      "data": "2025-04-13",
+      "data": "2026-04-13",
       "orario": "20:45",
       "casa": "Fiorentina",
       "ospite": "Lazio",
@@ -264,7 +264,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-17",
+      "data": "2026-04-17",
       "orario": "18:30",
       "casa": "Sassuolo",
       "ospite": "Como",
@@ -274,7 +274,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-17",
+      "data": "2026-04-17",
       "orario": "20:45",
       "casa": "Inter",
       "ospite": "Cagliari",
@@ -284,7 +284,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-18",
+      "data": "2026-04-18",
       "orario": "15:00",
       "casa": "Udinese",
       "ospite": "Parma",
@@ -294,7 +294,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-18",
+      "data": "2026-04-18",
       "orario": "18:00",
       "casa": "Napoli",
       "ospite": "Lazio",
@@ -304,7 +304,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-18",
+      "data": "2026-04-18",
       "orario": "20:45",
       "casa": "Roma",
       "ospite": "Atalanta",
@@ -314,7 +314,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-19",
+      "data": "2026-04-19",
       "orario": "12:30",
       "casa": "Cremonese",
       "ospite": "Torino",
@@ -324,7 +324,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-19",
+      "data": "2026-04-19",
       "orario": "15:00",
       "casa": "Verona",
       "ospite": "Milan",
@@ -334,7 +334,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-19",
+      "data": "2026-04-19",
       "orario": "18:00",
       "casa": "Pisa",
       "ospite": "Genoa",
@@ -344,7 +344,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-19",
+      "data": "2026-04-19",
       "orario": "20:45",
       "casa": "Juventus",
       "ospite": "Bologna",
@@ -354,7 +354,7 @@
     },
     {
       "giornata": 33,
-      "data": "2025-04-20",
+      "data": "2026-04-20",
       "orario": "20:45",
       "casa": "Lecce",
       "ospite": "Fiorentina",
@@ -364,7 +364,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-24",
+      "data": "2026-04-24",
       "orario": "20:45",
       "casa": "Napoli",
       "ospite": "Cremonese",
@@ -374,7 +374,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-25",
+      "data": "2026-04-25",
       "orario": "15:00",
       "casa": "Parma",
       "ospite": "Pisa",
@@ -384,7 +384,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-25",
+      "data": "2026-04-25",
       "orario": "18:00",
       "casa": "Bologna",
       "ospite": "Roma",
@@ -394,7 +394,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-25",
+      "data": "2026-04-25",
       "orario": "20:45",
       "casa": "Verona",
       "ospite": "Lecce",
@@ -404,7 +404,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-26",
+      "data": "2026-04-26",
       "orario": "12:30",
       "casa": "Fiorentina",
       "ospite": "Sassuolo",
@@ -414,7 +414,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-26",
+      "data": "2026-04-26",
       "orario": "15:00",
       "casa": "Genoa",
       "ospite": "Como",
@@ -424,7 +424,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-26",
+      "data": "2026-04-26",
       "orario": "18:00",
       "casa": "Torino",
       "ospite": "Inter",
@@ -434,7 +434,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-26",
+      "data": "2026-04-26",
       "orario": "20:45",
       "casa": "Milan",
       "ospite": "Juventus",
@@ -444,7 +444,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-27",
+      "data": "2026-04-27",
       "orario": "18:30",
       "casa": "Cagliari",
       "ospite": "Atalanta",
@@ -454,7 +454,7 @@
     },
     {
       "giornata": 34,
-      "data": "2025-04-27",
+      "data": "2026-04-27",
       "orario": "20:45",
       "casa": "Lazio",
       "ospite": "Udinese",
@@ -464,7 +464,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Inter",
       "ospite": "Parma",
@@ -474,7 +474,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Pisa",
       "ospite": "Lecce",
@@ -484,7 +484,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Udinese",
       "ospite": "Torino",
@@ -494,7 +494,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Juventus",
       "ospite": "Verona",
@@ -504,7 +504,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Como",
       "ospite": "Napoli",
@@ -514,7 +514,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Bologna",
       "ospite": "Cagliari",
@@ -524,7 +524,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Cremonese",
       "ospite": "Lazio",
@@ -534,7 +534,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Atalanta",
       "ospite": "Genoa",
@@ -544,7 +544,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Roma",
       "ospite": "Fiorentina",
@@ -554,7 +554,7 @@
     },
     {
       "giornata": 35,
-      "data": "2025-05-03",
+      "data": "2026-05-03",
       "orario": "Da definire",
       "casa": "Sassuolo",
       "ospite": "Milan",
@@ -564,7 +564,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Lazio",
       "ospite": "Inter",
@@ -574,7 +574,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Verona",
       "ospite": "Como",
@@ -584,7 +584,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Lecce",
       "ospite": "Juventus",
@@ -594,7 +594,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Milan",
       "ospite": "Atalanta",
@@ -604,7 +604,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Parma",
       "ospite": "Roma",
@@ -614,7 +614,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Cagliari",
       "ospite": "Udinese",
@@ -624,7 +624,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Napoli",
       "ospite": "Bologna",
@@ -634,7 +634,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Cremonese",
       "ospite": "Pisa",
@@ -644,7 +644,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Fiorentina",
       "ospite": "Genoa",
@@ -654,7 +654,7 @@
     },
     {
       "giornata": 36,
-      "data": "2025-05-10",
+      "data": "2026-05-10",
       "orario": "Da definire",
       "casa": "Torino",
       "ospite": "Sassuolo",
@@ -664,7 +664,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Como",
       "ospite": "Parma",
@@ -674,7 +674,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Juventus",
       "ospite": "Fiorentina",
@@ -684,7 +684,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Genoa",
       "ospite": "Milan",
@@ -694,7 +694,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Cagliari",
       "ospite": "Torino",
@@ -704,7 +704,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Roma",
       "ospite": "Lazio",
@@ -714,7 +714,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Udinese",
       "ospite": "Cremonese",
@@ -724,7 +724,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Pisa",
       "ospite": "Napoli",
@@ -734,7 +734,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Sassuolo",
       "ospite": "Lecce",
@@ -744,7 +744,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Inter",
       "ospite": "Verona",
@@ -754,7 +754,7 @@
     },
     {
       "giornata": 37,
-      "data": "2025-05-17",
+      "data": "2026-05-17",
       "orario": "Da definire",
       "casa": "Atalanta",
       "ospite": "Bologna",
@@ -764,7 +764,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Fiorentina",
       "ospite": "Atalanta",
@@ -774,7 +774,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Lecce",
       "ospite": "Genoa",
@@ -784,7 +784,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Milan",
       "ospite": "Cagliari",
@@ -794,7 +794,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Bologna",
       "ospite": "Inter",
@@ -804,7 +804,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Verona",
       "ospite": "Roma",
@@ -814,7 +814,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Lazio",
       "ospite": "Pisa",
@@ -824,7 +824,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Torino",
       "ospite": "Juventus",
@@ -834,7 +834,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Parma",
       "ospite": "Sassuolo",
@@ -844,7 +844,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Napoli",
       "ospite": "Udinese",
@@ -854,7 +854,7 @@
     },
     {
       "giornata": 38,
-      "data": "2025-05-24",
+      "data": "2026-05-24",
       "orario": "Da definire",
       "casa": "Cremonese",
       "ospite": "Como",
