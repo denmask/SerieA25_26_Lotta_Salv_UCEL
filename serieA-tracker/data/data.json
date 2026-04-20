@@ -4,31 +4,31 @@
       "id": 1,
       "name": "Inter",
       "image": "images/inter.png",
-      "W": 24,
+      "W": 25,
       "D": 3,
       "L": 5
     },
     {
       "id": 2,
+      "name": "Milan",
+      "image": "images/milan.png",
+      "W": 19,
+      "D": 9,
+      "L": 5
+    },
+    {
+      "id": 3,
       "name": "Napoli",
       "image": "images/napoli.png",
       "W": 20,
       "D": 6,
-      "L": 6
-    },
-    {
-      "id": 3,
-      "name": "Milan",
-      "image": "images/milan.png",
-      "W": 18,
-      "D": 9,
-      "L": 5
+      "L": 7
     },
     {
       "id": 4,
       "name": "Juventus",
       "image": "images/juventus.png",
-      "W": 17,
+      "W": 18,
       "D": 9,
       "L": 6
     },
@@ -38,14 +38,14 @@
       "image": "images/como.png",
       "W": 16,
       "D": 10,
-      "L": 6
+      "L": 7
     },
     {
       "id": 6,
       "name": "Roma",
       "image": "images/roma.png",
       "W": 18,
-      "D": 3,
+      "D": 4,
       "L": 11
     },
     {
@@ -53,7 +53,7 @@
       "name": "Atalanta",
       "image": "images/atalanta.png",
       "W": 14,
-      "D": 11,
+      "D": 12,
       "L": 7
     },
     {
@@ -62,30 +62,30 @@
       "image": "images/bologna.png",
       "W": 14,
       "D": 6,
-      "L": 12
+      "L": 13
     },
     {
       "id": 9,
       "name": "Lazio",
       "image": "images/lazio.png",
-      "W": 11,
+      "W": 12,
       "D": 11,
       "L": 10
     },
     {
       "id": 10,
+      "name": "Sassuolo",
+      "image": "images/sassuolo.png",
+      "W": 13,
+      "D": 6,
+      "L": 14
+    },
+    {
+      "id": 11,
       "name": "Udinese",
       "image": "images/udinese.png",
       "W": 12,
       "D": 7,
-      "L": 13
-    },
-    {
-      "id": 11,
-      "name": "Sassuolo",
-      "image": "images/sassuolo.png",
-      "W": 12,
-      "D": 6,
       "L": 14
     },
     {
@@ -93,14 +93,14 @@
       "name": "Torino",
       "image": "images/torino.png",
       "W": 11,
-      "D": 6,
+      "D": 7,
       "L": 15
     },
     {
       "id": 13,
       "name": "Genoa",
       "image": "images/genoa.png",
-      "W": 9,
+      "W": 10,
       "D": 9,
       "L": 14
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "name": "Parma",
       "image": "images/parma.png",
-      "W": 8,
+      "W": 9,
       "D": 12,
       "L": 12
     },
@@ -126,14 +126,14 @@
       "image": "images/cagliari.png",
       "W": 8,
       "D": 9,
-      "L": 15
+      "L": 16
     },
     {
       "id": 17,
       "name": "Cremonese",
       "image": "images/cremonese.png",
       "W": 6,
-      "D": 9,
+      "D": 10,
       "L": 17
     },
     {
@@ -150,7 +150,7 @@
       "image": "images/verona.png",
       "W": 3,
       "D": 9,
-      "L": 20
+      "L": 21
     },
     {
       "id": 20,
@@ -158,7 +158,7 @@
       "image": "images/pisa.png",
       "W": 2,
       "D": 12,
-      "L": 18
+      "L": 19
     }
   ],
   "matches": [
@@ -268,9 +268,9 @@
       "orario": "18:30",
       "casa": "Sassuolo",
       "ospite": "Como",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 2,
+      "golOspite": 1,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -278,9 +278,9 @@
       "orario": "20:45",
       "casa": "Inter",
       "ospite": "Cagliari",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 3,
+      "golOspite": 0,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -288,9 +288,9 @@
       "orario": "15:00",
       "casa": "Udinese",
       "ospite": "Parma",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 0,
+      "golOspite": 1,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -298,9 +298,9 @@
       "orario": "18:00",
       "casa": "Napoli",
       "ospite": "Lazio",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 0,
+      "golOspite": 2,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -308,9 +308,9 @@
       "orario": "20:45",
       "casa": "Roma",
       "ospite": "Atalanta",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 1,
+      "golOspite": 1,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -318,9 +318,9 @@
       "orario": "12:30",
       "casa": "Cremonese",
       "ospite": "Torino",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 0,
+      "golOspite": 0,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -328,9 +328,9 @@
       "orario": "15:00",
       "casa": "Verona",
       "ospite": "Milan",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 0,
+      "golOspite": 1,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -338,9 +338,9 @@
       "orario": "18:00",
       "casa": "Pisa",
       "ospite": "Genoa",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 1,
+      "golOspite": 2,
+      "giocata": true
     },
     {
       "giornata": 33,
@@ -348,9 +348,9 @@
       "orario": "20:45",
       "casa": "Juventus",
       "ospite": "Bologna",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 2,
+      "golOspite": 0,
+      "giocata": true
     },
     {
       "giornata": 33,
