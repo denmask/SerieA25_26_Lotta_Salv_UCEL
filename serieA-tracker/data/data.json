@@ -448,9 +448,9 @@
       "orario": "18:30",
       "casa": "Cagliari",
       "ospite": "Atalanta",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 3,
+      "golOspite": 2,
+      "giocata": true
     },
     {
       "giornata": 34,
@@ -458,9 +458,9 @@
       "orario": "20:45",
       "casa": "Lazio",
       "ospite": "Udinese",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
+      "golCasa": 3,
+      "golOspite": 3,
+      "giocata": true
     },
     {
       "giornata": 35,
