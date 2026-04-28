@@ -56,21 +56,22 @@
       "D": 12,
       "L": 7
     },
+    
     {
       "id": 8,
+      "name": "Lazio",
+      "image": "images/lazio.png",
+      "W": 12,
+      "D": 12,
+      "L": 10
+    },
+    {
+      "id": 9,
       "name": "Bologna",
       "image": "images/bologna.png",
       "W": 14,
       "D": 6,
       "L": 14
-    },
-    {
-      "id": 9,
-      "name": "Lazio",
-      "image": "images/lazio.png",
-      "W": 12,
-      "D": 11,
-      "L": 10
     },
     {
       "id": 10,
@@ -85,7 +86,7 @@
       "name": "Udinese",
       "image": "images/udinese.png",
       "W": 12,
-      "D": 7,
+      "D": 8,
       "L": 14
     },
     {
@@ -124,7 +125,7 @@
       "id": 16,
       "name": "Cagliari",
       "image": "images/cagliari.png",
-      "W": 8,
+      "W": 9,
       "D": 9,
       "L": 16
     },

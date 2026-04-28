@@ -221,30 +221,28 @@ class SerieATracker {
         let maxPoints = team.pts + (remaining * 3);
         let minPoints = team.pts;
 
-        const sorted = [...this.data.teams].sort((a, b) => b.pts - a.pts);
-
         let status = 'possibile';
         let statusLabel = 'possibile';
         let message = '';
 
         if (type === 'salvezza') {
             if (team.name === 'Genoa') {
-                status = 'salvo'; 
-                statusLabel = 'possibile';
-                message = 'Salvezza quasi certa';
+                status = 'salvo';
+                statusLabel = 'salvo';
+                message = 'Matematicamente salvo';
             } else if (team.name === 'Fiorentina') {
-                status = 'stabile'; 
-                statusLabel = 'possibile';
-                message = 'Situazione instabile';
+                status = 'possibile';
+                statusLabel = 'quasi salva';
+                message = 'Salvezza quasi raggiunta';
             } else if (team.name === 'Cagliari') {
-                status = 'difficile';
-                statusLabel = 'difficile';
-                message = 'Situazione critica';
+                status = 'possibile';
+                statusLabel = 'possibile';
+                message = 'Salvezza ancora possibile';
             } else if (team.name === 'Lecce' || team.name === 'Cremonese') {
                 status = 'difficile';
                 statusLabel = 'difficile';
-                message = 'Situazione molto critica';
-            } else if (team.name === 'Pisa' || team.name === 'Verona') {
+                message = 'Difficile, ma una delle due si salverà';
+            } else if (team.name === 'Verona' || team.name === 'Pisa') {
                 status = 'impossibile';
                 statusLabel = 'impossibile';
                 message = 'Quasi matematicamente retrocessa';
@@ -254,32 +252,32 @@ class SerieATracker {
         } else if (type === 'champions') {
             if (team.name === 'Inter' || team.name === 'Napoli') {
                 status = 'possibile';
-                statusLabel = 'possibile';
-                message = 'Champions certa';
+                statusLabel = 'quasi fatta';
+                message = 'Champions quasi matematica';
             } else if (team.name === 'Milan') {
                 status = 'possibile';
                 statusLabel = 'possibile';
-                message = 'Champions quasi certa';
-            } else if (team.name === 'Como' || team.name === 'Juventus') {
+                message = 'Champions quasi fatta';
+            } else if (team.name === 'Juventus' || team.name === 'Como' || team.name === 'Roma') {
                 status = 'possibile';
                 statusLabel = 'possibile';
                 message = 'In piena corsa Champions';
-            } else if (team.name === 'Roma') {
-                status = 'improbabile';
-                statusLabel = 'improbabile';
-                message = 'Champions/Europa League';
             } else {
                 message = 'Ancora in corsa';
             }
         } else if (type === 'scudetto') {
-            if (team.name === 'Inter' || team.name === 'Napoli') {
+            if (team.name === 'Inter') {
                 status = 'possibile';
-                statusLabel = 'possibile';
-                message = 'Volata decisiva';
+                statusLabel = 'quasi certo';
+                message = 'Quasi matematicamente campione';
+            } else if (team.name === 'Napoli') {
+                status = 'impossibile';
+                statusLabel = 'impossibile';
+                message = 'Scudetto ormai impossibile';
             } else if (team.name === 'Milan') {
-                status = 'difficile';
-                statusLabel = 'difficile';
-                message = 'In bilico tra 2° e 3° posto';
+                status = 'impossibile';
+                statusLabel = 'impossibile';
+                message = 'Scudetto matematicamente impossibile';
             }
         }
 
