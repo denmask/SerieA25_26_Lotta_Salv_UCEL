@@ -462,20 +462,11 @@
       "golOspite": 3,
       "giocata": true
     },
+    
     {
       "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
-      "casa": "Inter",
-      "ospite": "Parma",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
-    },
-    {
-      "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
+      "data": "2026-05-01",
+      "orario": "20:45",
       "casa": "Pisa",
       "ospite": "Lecce",
       "golCasa": null,
@@ -484,8 +475,8 @@
     },
     {
       "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
+      "data": "2026-05-02",
+      "orario": "15:00",
       "casa": "Udinese",
       "ospite": "Torino",
       "golCasa": null,
@@ -494,18 +485,8 @@
     },
     {
       "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
-      "casa": "Juventus",
-      "ospite": "Verona",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
-    },
-    {
-      "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
+      "data": "2026-05-02",
+      "orario": "18:00",
       "casa": "Como",
       "ospite": "Napoli",
       "golCasa": null,
@@ -514,28 +495,8 @@
     },
     {
       "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
-      "casa": "Bologna",
-      "ospite": "Cagliari",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
-    },
-    {
-      "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
-      "casa": "Cremonese",
-      "ospite": "Lazio",
-      "golCasa": null,
-      "golOspite": null,
-      "giocata": false
-    },
-    {
-      "giornata": 35,
-      "data": "2026-05-03",
-      "orario": "Da definire",
+      "data": "2026-05-02",
+      "orario": "20:45",
       "casa": "Atalanta",
       "ospite": "Genoa",
       "golCasa": null,
@@ -545,9 +506,9 @@
     {
       "giornata": 35,
       "data": "2026-05-03",
-      "orario": "Da definire",
-      "casa": "Roma",
-      "ospite": "Fiorentina",
+      "orario": "12:30",
+      "casa": "Bologna",
+      "ospite": "Cagliari",
       "golCasa": null,
       "golOspite": null,
       "giocata": false
@@ -555,13 +516,56 @@
     {
       "giornata": 35,
       "data": "2026-05-03",
-      "orario": "Da definire",
+      "orario": "15:00",
       "casa": "Sassuolo",
       "ospite": "Milan",
       "golCasa": null,
       "golOspite": null,
       "giocata": false
     },
+    {
+      "giornata": 35,
+      "data": "2026-05-03",
+      "orario": "18:00",
+      "casa": "Juventus",
+      "ospite": "Verona",
+      "golCasa": null,
+      "golOspite": null,
+      "giocata": false
+    },
+    
+    {
+      "giornata": 35,
+      "data": "2026-05-03",
+      "orario": "20:45",
+      "casa": "Inter",
+      "ospite": "Parma",
+      "golCasa": null,
+      "golOspite": null,
+      "giocata": false
+    },
+    {
+      "giornata": 35,
+      "data": "2026-05-04",
+      "orario": "18:30",
+      "casa": "Cremonese",
+      "ospite": "Lazio",
+      "golCasa": null,
+      "golOspite": null,
+      "giocata": false
+    },
+    
+    {
+      "giornata": 35,
+      "data": "2026-05-04",
+      "orario": "20:45",
+      "casa": "Roma",
+      "ospite": "Fiorentina",
+      "golCasa": null,
+      "golOspite": null,
+      "giocata": false
+    },
+    
     {
       "giornata": 36,
       "data": "2026-05-10",
