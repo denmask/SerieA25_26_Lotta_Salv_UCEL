@@ -233,50 +233,62 @@ class SerieATracker {
             } else if (team.name === 'Fiorentina') {
                 status = 'possibile';
                 statusLabel = 'quasi salva';
-                message = 'Salvezza quasi raggiunta';
+                message = 'Manca pochissimo alla salvezza matematica';
             } else if (team.name === 'Cagliari') {
+                status = 'possibile';
+                statusLabel = 'quasi salva';
+                message = 'Manca pochissimo alla salvezza matematica';
+            } else if (team.name === 'Lecce') {
                 status = 'possibile';
                 statusLabel = 'possibile';
                 message = 'Salvezza ancora possibile';
-            } else if (team.name === 'Lecce' || team.name === 'Cremonese') {
+            } else if (team.name === 'Cremonese') {
                 status = 'difficile';
                 statusLabel = 'difficile';
-                message = 'Difficile, ma una delle due si salverà';
+                message = 'Salvezza difficile ma non impossibile';
             } else if (team.name === 'Verona' || team.name === 'Pisa') {
                 status = 'impossibile';
-                statusLabel = 'impossibile';
-                message = 'Quasi matematicamente retrocessa';
+                statusLabel = 'retrocessa';
+                message = 'Retrocessione matematica in Serie B';
             } else {
                 message = 'In lotta';
             }
         } else if (type === 'champions') {
             if (team.name === 'Inter' || team.name === 'Napoli') {
-                status = 'possibile';
-                statusLabel = 'quasi fatta';
-                message = 'Champions quasi matematica';
+                status = 'salvo';
+                statusLabel = 'in Champions';
+                message = 'Champions League matematicamente acquisita';
             } else if (team.name === 'Milan') {
+                status = 'difficile';
+                statusLabel = 'a rischio';
+                message = 'Zona Champions a rischio — Juventus e Roma inseguono';
+            } else if (team.name === 'Juventus') {
+                status = 'possibile';
+                statusLabel = 'possibilissima';
+                message = 'Champions concretissima — basta vincere e superare il Milan';
+            } else if (team.name === 'Roma') {
                 status = 'possibile';
                 statusLabel = 'possibile';
-                message = 'Champions quasi fatta';
-            } else if (team.name === 'Juventus' || team.name === 'Como' || team.name === 'Roma') {
-                status = 'possibile';
-                statusLabel = 'possibile';
-                message = 'In piena corsa Champions';
+                message = 'Champions possibile — serve il sorpasso su Milan e Juventus';
+            } else if (team.name === 'Como') {
+                status = 'difficile';
+                statusLabel = 'a rischio';
+                message = 'Champions a rischio — distacco importante da colmare';
             } else {
                 message = 'Ancora in corsa';
             }
         } else if (type === 'scudetto') {
             if (team.name === 'Inter') {
-                status = 'possibile';
-                statusLabel = 'quasi certo';
-                message = 'Quasi matematicamente campione';
+                status = 'salvo';
+                statusLabel = "Campione d'Italia";
+                message = "Campione d'Italia matematico — scudetto conquistato";
             } else if (team.name === 'Napoli') {
                 status = 'impossibile';
-                statusLabel = 'impossibile';
-                message = 'Scudetto ormai impossibile';
+                statusLabel = 'scudetto perso';
+                message = 'Scudetto aritmeticamente impossibile';
             } else if (team.name === 'Milan') {
                 status = 'impossibile';
-                statusLabel = 'impossibile';
+                statusLabel = 'scudetto perso';
                 message = 'Scudetto matematicamente impossibile';
             }
         }
