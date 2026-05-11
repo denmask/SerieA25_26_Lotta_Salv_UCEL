@@ -231,21 +231,21 @@ class SerieATracker {
                 statusLabel = 'salvo';
                 message = 'Matematicamente salvo';
             } else if (team.name === 'Fiorentina') {
-                status = 'possibile';
-                statusLabel = 'quasi salva';
-                message = 'Manca pochissimo alla salvezza matematica';
+                status = 'salvo';
+                statusLabel = 'salva matematicamente';
+                message = 'Salvezza matematicamente conquistata';
             } else if (team.name === 'Cagliari') {
-                status = 'possibile';
-                statusLabel = 'quasi salva';
-                message = 'Manca pochissimo alla salvezza matematica';
+                status = 'difficile';
+                statusLabel = 'a rischio';
+                message = 'Manca ancora 1 punto — rischia nelle ultime 2 giornate';
             } else if (team.name === 'Lecce') {
                 status = 'possibile';
                 statusLabel = 'possibile';
-                message = 'Salvezza ancora possibile';
+                message = 'Se la gioca con la Cremonese — scontro diretto decisivo';
             } else if (team.name === 'Cremonese') {
-                status = 'difficile';
-                statusLabel = 'difficile';
-                message = 'Salvezza difficile ma non impossibile';
+                status = 'possibile';
+                statusLabel = 'possibile';
+                message = 'Salvezza ancora possibile — se la gioca col Lecce';
             } else if (team.name === 'Verona' || team.name === 'Pisa') {
                 status = 'impossibile';
                 statusLabel = 'retrocessa';
@@ -264,16 +264,16 @@ class SerieATracker {
                 message = 'Zona Champions a rischio — Juventus e Roma inseguono';
             } else if (team.name === 'Juventus') {
                 status = 'possibile';
-                statusLabel = 'possibilissima';
-                message = 'Champions concretissima — basta vincere e superare il Milan';
+                statusLabel = 'molto possibile';
+                message = 'Champions molto vicina — basta non perdere il passo sul Milan';
             } else if (team.name === 'Roma') {
                 status = 'possibile';
                 statusLabel = 'possibile';
                 message = 'Champions possibile — serve il sorpasso su Milan e Juventus';
             } else if (team.name === 'Como') {
-                status = 'difficile';
-                statusLabel = 'a rischio';
-                message = 'Champions a rischio — distacco importante da colmare';
+                status = 'possibile';
+                statusLabel = 'possibile';
+                message = 'Champions possibile — distacco da colmare nelle ultime giornate';
             } else {
                 message = 'Ancora in corsa';
             }
@@ -286,10 +286,10 @@ class SerieATracker {
                 status = 'impossibile';
                 statusLabel = 'scudetto perso';
                 message = 'Scudetto aritmeticamente impossibile';
-            } else if (team.name === 'Milan') {
+            } else if (team.name === 'Juventus') {
                 status = 'impossibile';
                 statusLabel = 'scudetto perso';
-                message = 'Scudetto matematicamente impossibile';
+                message = 'Mai in lotta per lo scudetto — stagione chiusa';
             }
         }
 
